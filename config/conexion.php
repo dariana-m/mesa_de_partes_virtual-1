@@ -15,7 +15,7 @@
 
         public function set_names(){
             return $this->dbh->query("SET NAMES 'utf8'");
-        }
+        }6
         
         public static function ruta(){
             return "http://mesa_de_partes_virtual.test/";
